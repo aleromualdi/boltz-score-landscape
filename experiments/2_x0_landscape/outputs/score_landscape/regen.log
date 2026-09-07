@@ -1,0 +1,268 @@
+compute landscape 1EX6_B…
+device=cuda system=1EX6_B predict=1EX6_B
+/home/alessandro/boltz_en/boltz/.venv/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+ascent score_rms 0.246→0.04959  conv=True
+CA modes from /home/alessandro/boltz_en/experiments/1_codnas_apo_holo/outputs/analysis_soft91/1EX6_B_score_ascent_ca_modes.npz:
+  soft: λ=-0.06509
+  mid: λ=1.168
+  stiff: λ=4.059
+sweep soft (λ=-0.06509)…
+    α=-2.000 Å  dU/dα=-1492
+    α=-1.750 Å  dU/dα=-1604
+    α=-1.500 Å  dU/dα=-1686
+    α=-1.250 Å  dU/dα=-1701
+    α=-1.000 Å  dU/dα=-1620
+    α=-0.750 Å  dU/dα=-1418
+    α=-0.500 Å  dU/dα=-998.7
+    α=-0.250 Å  dU/dα=-501.9
+    α=+0.000 Å  dU/dα=-0.3018
+    α=+0.250 Å  dU/dα=+501.2
+    α=+0.500 Å  dU/dα=+997.4
+    α=+0.750 Å  dU/dα=+1424
+    α=+1.000 Å  dU/dα=+1566
+    α=+1.250 Å  dU/dα=+1643
+    α=+1.500 Å  dU/dα=+1641
+    α=+1.750 Å  dU/dα=+1554
+    α=+2.000 Å  dU/dα=+1444
+sweep mid (λ=1.168)…
+    α=-2.000 Å  dU/dα=-2430
+    α=-1.750 Å  dU/dα=-2557
+    α=-1.500 Å  dU/dα=-2531
+    α=-1.250 Å  dU/dα=-2351
+    α=-1.000 Å  dU/dα=-2009
+    α=-0.750 Å  dU/dα=-1553
+    α=-0.500 Å  dU/dα=-1043
+    α=-0.250 Å  dU/dα=-522.3
+    α=+0.000 Å  dU/dα=-0.1004
+    α=+0.250 Å  dU/dα=+521.8
+    α=+0.500 Å  dU/dα=+1041
+    α=+0.750 Å  dU/dα=+1553
+    α=+1.000 Å  dU/dα=+2023
+    α=+1.250 Å  dU/dα=+2371
+    α=+1.500 Å  dU/dα=+2555
+    α=+1.750 Å  dU/dα=+2577
+    α=+2.000 Å  dU/dα=+2434
+sweep stiff (λ=4.059)…
+    α=-2.000 Å  dU/dα=-2100
+    α=-1.750 Å  dU/dα=-2179
+    α=-1.500 Å  dU/dα=-2179
+    α=-1.250 Å  dU/dα=-2034
+    α=-1.000 Å  dU/dα=-1752
+    α=-0.750 Å  dU/dα=-1423
+    α=-0.500 Å  dU/dα=-1047
+    α=-0.250 Å  dU/dα=-538.6
+    α=+0.000 Å  dU/dα=-0.5623
+    α=+0.250 Å  dU/dα=+535.7
+    α=+0.500 Å  dU/dα=+1016
+    α=+0.750 Å  dU/dα=+1385
+    α=+1.000 Å  dU/dα=+1763
+    α=+1.250 Å  dU/dα=+2065
+    α=+1.500 Å  dU/dα=+2208
+    α=+1.750 Å  dU/dα=+2195
+    α=+2.000 Å  dU/dα=+2109
+C10(modes)=0.773  C10(soft91 json)=0.776  null=0.017
+plane axes: softest (α=3.682 Å) × stiffest (q2_exp=0.037 Å); soft_frac=0.77
+2D plane grid 25×25 (±2.00 Å)…
+    plane grid 25/625
+    plane grid 50/625
+    plane grid 75/625
+    plane grid 100/625
+    plane grid 125/625
+    plane grid 150/625
+    plane grid 175/625
+    plane grid 200/625
+    plane grid 225/625
+    plane grid 250/625
+    plane grid 275/625
+    plane grid 300/625
+    plane grid 325/625
+    plane grid 350/625
+    plane grid 375/625
+    plane grid 400/625
+    plane grid 425/625
+    plane grid 450/625
+    plane grid 475/625
+    plane grid 500/625
+    plane grid 525/625
+    plane grid 550/625
+    plane grid 575/625
+    plane grid 600/625
+    plane grid 625/625
+measured κ_soft=2005 κ_stiff=2144 (ratio 1.07); U_stiff/U_soft at ~1.50 Å = 1.31
+{
+  "system": "1EX6_B",
+  "motion_type": "domain movements",
+  "rmsd": 4.370038133548932,
+  "sigma": 0.2818314731121063,
+  "ascent_score_rms": 0.04958932101726532,
+  "ascent_converged": 1.0,
+  "alpha_max": 2.0,
+  "plane_max": 2.0,
+  "n_alpha": 17,
+  "n_grid": 25,
+  "modes_npz": "/home/alessandro/boltz_en/experiments/1_codnas_apo_holo/outputs/analysis_soft91/1EX6_B_score_ascent_ca_modes.npz",
+  "modes": {
+    "soft": {
+      "lambda": -0.06509062215702045,
+      "kappa_local": 2006.1917724609375
+    },
+    "mid": {
+      "lambda": 1.1682775417344675,
+      "kappa_local": 2088.3662109375
+    },
+    "stiff": {
+      "lambda": 4.059272964488775,
+      "kappa_local": 2148.495361328125
+    }
+  },
+  "alpha_exp_soft": -3.6818295477238423,
+  "cosine_soft": -0.8425165719855646,
+  "mode_index": 0,
+  "mode_cos": 0.8425165719855648,
+  "plane_q1_exp": 3.681829547723843,
+  "plane_q2_exp": 0.03672483056273188,
+  "plane_kappa_exp": 2004.8182885950978,
+  "plane_kappa_perp": 2144.3664557965485,
+  "plane_kappa_ratio": 1.0696063917589465,
+  "plane_soft_frac": 0.7728564762457143,
+  "plane_u_ratio_at_1p5": 1.309430860443857,
+  "C10": 0.7728564762457149,
+  "C10_null": 0.016516333199530962,
+  "n_int": 4329.0
+}
+wrote /home/alessandro/boltz_en/experiments/2_x0_landscape/outputs/score_landscape/1EX6_B_score_landscape.npz
+compute landscape 1GUD_A…
+device=cuda system=1GUD_A predict=1GUD_A
+/home/alessandro/boltz_en/boltz/.venv/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+ascent score_rms 0.2451→0.04975  conv=True
+CA modes from /home/alessandro/boltz_en/experiments/1_codnas_apo_holo/outputs/analysis_soft91/1GUD_A_score_ascent_ca_modes.npz:
+  soft: λ=-0.3166
+  mid: λ=1.078
+  stiff: λ=4.005
+sweep soft (λ=-0.3166)…
+    α=-2.000 Å  dU/dα=-2210
+    α=-1.750 Å  dU/dα=-2071
+    α=-1.500 Å  dU/dα=-1929
+    α=-1.250 Å  dU/dα=-1812
+    α=-1.000 Å  dU/dα=-1716
+    α=-0.750 Å  dU/dα=-1625
+    α=-0.500 Å  dU/dα=-1361
+    α=-0.250 Å  dU/dα=-799.6
+    α=+0.000 Å  dU/dα=-0.3629
+    α=+0.250 Å  dU/dα=+798
+    α=+0.500 Å  dU/dα=+1360
+    α=+0.750 Å  dU/dα=+1585
+    α=+1.000 Å  dU/dα=+1685
+    α=+1.250 Å  dU/dα=+1776
+    α=+1.500 Å  dU/dα=+1886
+    α=+1.750 Å  dU/dα=+2048
+    α=+2.000 Å  dU/dα=+2213
+sweep mid (λ=1.078)…
+    α=-2.000 Å  dU/dα=-2909
+    α=-1.750 Å  dU/dα=-3020
+    α=-1.500 Å  dU/dα=-3078
+    α=-1.250 Å  dU/dα=-2983
+    α=-1.000 Å  dU/dα=-2640
+    α=-0.750 Å  dU/dα=-2057
+    α=-0.500 Å  dU/dα=-1412
+    α=-0.250 Å  dU/dα=-791.4
+    α=+0.000 Å  dU/dα=+0.3755
+    α=+0.250 Å  dU/dα=+793.6
+    α=+0.500 Å  dU/dα=+1404
+    α=+0.750 Å  dU/dα=+2054
+    α=+1.000 Å  dU/dα=+2636
+    α=+1.250 Å  dU/dα=+2948
+    α=+1.500 Å  dU/dα=+3035
+    α=+1.750 Å  dU/dα=+2996
+    α=+2.000 Å  dU/dα=+2878
+sweep stiff (λ=4.005)…
+    α=-2.000 Å  dU/dα=-3152
+    α=-1.750 Å  dU/dα=-3315
+    α=-1.500 Å  dU/dα=-3349
+    α=-1.250 Å  dU/dα=-3198
+    α=-1.000 Å  dU/dα=-2842
+    α=-0.750 Å  dU/dα=-2292
+    α=-0.500 Å  dU/dα=-1638
+    α=-0.250 Å  dU/dα=-825.9
+    α=+0.000 Å  dU/dα=+0.2851
+    α=+0.250 Å  dU/dα=+827.1
+    α=+0.500 Å  dU/dα=+1641
+    α=+0.750 Å  dU/dα=+2310
+    α=+1.000 Å  dU/dα=+2857
+    α=+1.250 Å  dU/dα=+3225
+    α=+1.500 Å  dU/dα=+3355
+    α=+1.750 Å  dU/dα=+3289
+    α=+2.000 Å  dU/dα=+3099
+C10(modes)=0.884  C10(soft91 json)=0.823  null=0.012
+plane axes: softest (α=1.754 Å) × stiffest (q2_exp=0.292 Å); soft_frac=0.88
+2D plane grid 25×25 (±2.00 Å)…
+    plane grid 25/625
+    plane grid 50/625
+    plane grid 75/625
+    plane grid 100/625
+    plane grid 125/625
+    plane grid 150/625
+    plane grid 175/625
+    plane grid 200/625
+    plane grid 225/625
+    plane grid 250/625
+    plane grid 275/625
+    plane grid 300/625
+    plane grid 325/625
+    plane grid 350/625
+    plane grid 375/625
+    plane grid 400/625
+    plane grid 425/625
+    plane grid 450/625
+    plane grid 475/625
+    plane grid 500/625
+    plane grid 525/625
+    plane grid 550/625
+    plane grid 575/625
+    plane grid 600/625
+    plane grid 625/625
+measured κ_soft=3154 κ_stiff=3314 (ratio 1.05); U_stiff/U_soft at ~1.50 Å = 1.80
+{
+  "system": "1GUD_A",
+  "motion_type": "domain movements",
+  "rmsd": 4.451626812987196,
+  "sigma": 0.2818314731121063,
+  "ascent_score_rms": 0.04974578320980072,
+  "ascent_converged": 1.0,
+  "alpha_max": 2.0,
+  "plane_max": 2.0,
+  "n_alpha": 17,
+  "n_grid": 25,
+  "modes_npz": "/home/alessandro/boltz_en/experiments/1_codnas_apo_holo/outputs/analysis_soft91/1GUD_A_score_ascent_ca_modes.npz",
+  "modes": {
+    "soft": {
+      "lambda": -0.31657556744656756,
+      "kappa_local": 3195.3094482421875
+    },
+    "mid": {
+      "lambda": 1.0783337226245733,
+      "kappa_local": 3170.083984375
+    },
+    "stiff": {
+      "lambda": 4.004747566947216,
+      "kappa_local": 3306.097412109375
+    }
+  },
+  "alpha_exp_soft": 1.753919103794247,
+  "cosine_soft": 0.3939950893182142,
+  "mode_index": 1,
+  "mode_cos": 0.9219515349164846,
+  "plane_q1_exp": 1.753919103794247,
+  "plane_q2_exp": 0.29226511839352415,
+  "plane_kappa_exp": 3153.653393444164,
+  "plane_kappa_perp": 3314.028338948489,
+  "plane_kappa_ratio": 1.0508537006120309,
+  "plane_soft_frac": 0.883502661288461,
+  "plane_u_ratio_at_1p5": 1.803696676523711,
+  "C10": 0.8835026612884617,
+  "C10_null": 0.01155671247106271,
+  "n_int": 6390.0
+}
+wrote /home/alessandro/boltz_en/experiments/2_x0_landscape/outputs/score_landscape/1GUD_A_score_landscape.npz
+skip compute 1AW2_A: /home/alessandro/boltz_en/experiments/2_x0_landscape/outputs/score_landscape/1AW2_A_score_landscape.npz exists
+wrote /home/alessandro/boltz_en/experiments/2_x0_landscape/outputs/score_landscape/trio_3d_2d.png

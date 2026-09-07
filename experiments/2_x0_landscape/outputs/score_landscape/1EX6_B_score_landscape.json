@@ -1,0 +1,41 @@
+{
+  "system": "1EX6_B",
+  "motion_type": "domain movements",
+  "rmsd": 4.370038133548932,
+  "sigma": 0.2818314731121063,
+  "ascent_score_rms": 0.04958932101726532,
+  "ascent_converged": 1.0,
+  "alpha_max": 2.0,
+  "plane_max": 2.0,
+  "n_alpha": 17,
+  "n_grid": 25,
+  "modes_npz": "/home/alessandro/boltz_en/experiments/1_codnas_apo_holo/outputs/analysis_soft91/1EX6_B_score_ascent_ca_modes.npz",
+  "modes": {
+    "soft": {
+      "lambda": -0.06509062215702045,
+      "kappa_local": 2006.1917724609375
+    },
+    "mid": {
+      "lambda": 1.1682775417344675,
+      "kappa_local": 2088.3662109375
+    },
+    "stiff": {
+      "lambda": 4.059272964488775,
+      "kappa_local": 2148.495361328125
+    }
+  },
+  "alpha_exp_soft": -3.6818295477238423,
+  "cosine_soft": -0.8425165719855646,
+  "mode_index": 0,
+  "mode_cos": 0.8425165719855648,
+  "plane_q1_exp": 3.681829547723843,
+  "plane_q2_exp": 0.03672483056273188,
+  "plane_kappa_exp": 2004.8182885950978,
+  "plane_kappa_perp": 2144.3664557965485,
+  "plane_kappa_ratio": 1.0696063917589465,
+  "plane_soft_frac": 0.7728564762457143,
+  "plane_u_ratio_at_1p5": 1.309430860443857,
+  "C10": 0.7728564762457149,
+  "C10_null": 0.016516333199530962,
+  "n_int": 4329.0
+}
